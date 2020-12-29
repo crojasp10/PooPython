@@ -42,11 +42,22 @@ class Moto(vehiculo):
             self.enmarcha,"\nAcelerando:",self.acelera, "\nFrenando:",self.frena,
             "\n", self.hcaballito)
 
+class VElectrico():
+    def __init__ (self):
+        self.autonomia=100
+
+    def cargaEnergia(self):
+        self.cargando=True
+
+
+
 miMoto=Moto("Honda","CBY")
 
 miMoto.caballito()
 
 print(miMoto.estado())
+
+
 
 
 miFurgoneta=Furgoneta("Renault","kanguro")
@@ -56,3 +67,11 @@ miFurgoneta.arrancar()
 miFurgoneta.estado()
 
 print(miFurgoneta.carga(True))
+
+class BiciElectrica(Vehiculos,VElectrico):
+    pass
+
+miBici=BiciElectrica("Specialized","RM20")
+
+
+
