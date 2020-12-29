@@ -42,7 +42,7 @@ class Moto(vehiculo):
             self.enmarcha,"\nAcelerando:",self.acelera, "\nFrenando:",self.frena,
             "\n", self.hcaballito)
 
-miMoto=Moto("Honda","CBR")
+miMoto=Moto("Honda","CBY")
 
 miMoto.caballito()
 
