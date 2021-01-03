@@ -60,6 +60,7 @@ print(miMoto.estado())
 
 
 
+
 miFurgoneta=Furgoneta("Renault","kanguro")
 
 miFurgoneta.arrancar()
@@ -68,7 +69,7 @@ miFurgoneta.estado()
 
 print(miFurgoneta.carga(True))
 
-class BiciElectrica(Vehiculos,VElectrico):
+class BiciElectrica(vehiculo,VElectrico):
     pass
 
 miBici=BiciElectrica("Specialized","RM20")
