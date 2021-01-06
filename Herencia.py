@@ -75,7 +75,7 @@ print(miFurgoneta.carga(True))
 class BiciElectrica(VElectrico, vehiculo):
     pass
 
-miBici=BiciElectrica("Specialized","RM20")
+miBici=BiciElectrica("Specialize","RM20")
 
 miBici.estado()
 
