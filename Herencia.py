@@ -64,7 +64,7 @@ print(miMoto.estado())
 
 
 
-miFurgoneta=Furgoneta("Renault","kanguro")
+miFurgoneta=Furgoneta("Renault","kangur")
 
 miFurgoneta.arrancar()
 
